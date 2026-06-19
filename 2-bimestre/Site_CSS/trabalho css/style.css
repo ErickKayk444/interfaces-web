@@ -1,0 +1,115 @@
+body{
+    background-color: #ffffff
+}
+.titulo{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: #BDB2EA;
+    height: 18xvh;
+}
+
+.introducao{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:black;
+}
+    
+.texto1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:black;
+}
+.titulo2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+.imagem1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.texto2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+.texto3{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+.imagem2{
+    border-radius: 1000px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao{ 
+    
+    display:flex;
+    align-items:stretch;
+    color: rgb(155, 55, 255);
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.botao2{ 
+    
+    display:flex;
+    align-items:stretch;
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+    .botao:hover{
+        background-color: #5f54fd;
+    }
+
+.titulo3{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+.topo{
+    background-color: #BDB2EA;
+    height: 200vh;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+.topo2{ background-color: #8B83FF;
+    height: 20vh;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;}
+    body{
+        margin: 0;
+        padding: 0;
+    }
+ .titulo4{
+    color: black;
+    background-color: #BDB2EA;
+    height: 25xvh;
+}
+    
