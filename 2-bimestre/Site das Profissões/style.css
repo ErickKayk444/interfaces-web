@@ -1,0 +1,141 @@
+.texto {
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.menu {
+    background-color: #3b0764;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 3px solid #facc15;
+
+}
+
+.menu2 {
+    background-color: #3b0764;
+    padding: 1px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+    color: #f5f3ff;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    
+}
+
+.cor-de-fundo {
+    background-color: #120018;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #120018;
+    min-height: 100vh;
+    animation: aparecerPagina 0.5s ease;
+
+    
+}
+
+html {
+    background-color: #120018;
+    min-height: 100%;
+}
+
+.footer {
+    background-color: #3b0764;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 40px;
+    border-top: 3px solid #facc15;
+    
+}
+
+h1,
+h2,
+h3 {
+    color: #d8b4fe;
+}
+
+.botoes a {
+    background-color: #a855f7;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.botoes a:hover {
+    background-color: #facc15;
+    color: #1f002d;
+    transform: scale(1.1);
+    box-shadow: 0 0 18px #facc15;
+}
+
+.referencias {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagem {
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    height: 150px;
+    border: 3px solid #a855f7;
+    box-shadow: 0 0 18px rgba(168, 85, 247, 0.6);
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+      .menu{
+        width: 90%;
+        flex-direction: column;
+      }
+
+}
+
+
+@media screen and (max-width: 768px){
+    .conteudo{
+      width: 90%;
+      flex-direction: column;
+    }
+
+}
+
+
+@keyframes aparecerPagina {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
