@@ -1,3 +1,3 @@
 ## Site das Profissões
-# link
+# link:
 https://site-profissoes.netlify.app/
