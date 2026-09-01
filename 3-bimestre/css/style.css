@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f9ff;
+    color: #1f2937;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #5aa9ff);
+    color: white;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+.info-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-box {
+    font-size: 42px;
+    color: #0d6efd;
+}
+
+footer {
+    background-color: #0b1f3a;
+    color: white;
+}
+
+.about-hero {
+    background-color: #e8f2ff;
+    padding: 70px 0;
+}
+
+.contact-box {
+    border-radius: 15px;
+    border: none;
+}
