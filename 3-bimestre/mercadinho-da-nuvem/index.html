@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mercadinho da Nuvem</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-7">
+
+                    <h1>
+                        Bem-vindo ao Mercadinho da Nuvem! 🛒
+                    </h1>
+
+                    <p class="lead">
+                        Tudo que você precisa para o dia a dia,
+                        pertinho de você e com preço bom.
+                    </p>
+
+                    <a href="#produtos" class="btn btn-light btn-lg">
+                        Ver produtos
+                    </a>
+
+                </div>
+
+                <div class="col-md-5 text-center mt-4 mt-md-0">
+
+                    <div style="font-size: 120px;">
+                        🛒
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <main class="container py-5" id="produtos">
+
+
+
+        <div class="row mb-4">
+
+            <div class="col-md-8 mx-auto">
+
+                <div class="input-group input-group-lg">
+
+                    <span class="input-group-text">
+                        <i class="bi bi-search"></i>
+                    </span>
+
+                    <input type="text" id="searchInput" class="form-control" placeholder="Procure um produto...">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+
+            <h2 class="fw-bold">
+                Produtos
+            </h2>
+
+            <span id="productCounter" class="text-muted">
+                12 produtos
+            </span>
+
+        </div>
+
+
+
+        <div class="row g-4" id="productList">
+
+
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Arroz 5kg" data-category="Alimentos">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🍚
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Alimentos
+                        </span>
+
+                        <div class="product-name">
+                            Arroz 5kg
+                        </div>
+
+                        <p class="text-muted small">
+                            Arroz branco tipo 1
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 24,90
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Feijão 1kg" data-category="Alimentos">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🫘
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Alimentos
+                        </span>
+
+                        <div class="product-name">
+                            Feijão 1kg
+                        </div>
+
+                        <p class="text-muted small">
+                            Feijão carioca
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 8,90
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Macarrão 500g" data-category="Alimentos">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🍝
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Alimentos
+                        </span>
+
+                        <div class="product-name">
+                            Macarrão 500g
+                        </div>
+
+                        <p class="text-muted small">
+                            Macarrão espaguete
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 4,99
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Leite 1L" data-category="Alimentos">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🥛
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Alimentos
+                        </span>
+
+                        <div class="product-name">
+                            Leite 1L
+                        </div>
+
+                        <p class="text-muted small">
+                            Leite integral
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 5,49
+23
+,5                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Coca-Cola 2L" data-category="Bebidas">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🥤
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Bebidas
+                        </span>
+
+                        <div class="product-name">
+                            Refrigerante 2L
+                        </div>
+
+                        <p class="text-muted small">
+                            Refrigerante
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 9,99
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Suco 1L" data-category="Bebidas">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🧃
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Bebidas
+                        </span>
+
+                        <div class="product-name">
+                            Suco 1L
+                        </div>
+
+                        <p class="text-muted small">
+                            Suco de frutas
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 7,49
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Detergente" data-category="Limpeza">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🧴
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Limpeza
+                        </span>
+
+                        <div class="product-name">
+                            Detergente
+                        </div>
+
+                        <p class="text-muted small">
+                            Detergente 500ml
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 2,99
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Sabão em pó" data-category="Limpeza">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🧼
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Limpeza
+                        </span>
+
+                        <div class="product-name">
+                            Sabão em pó
+                        </div>
+
+                        <p class="text-muted small">
+                            Sabão em pó 800g
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 12,90
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Papel higiênico" data-category="Higiene">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🧻
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Higiene
+                        </span>
+
+                        <div class="product-name">
+                            Papel higiênico
+                        </div>
+
+                        <p class="text-muted small">
+                            Pacote com 12 rolos
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 15,90
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Sabonete" data-category="Higiene">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🧼
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Higiene
+                        </span>
+
+                        <div class="product-name">
+                            Sabonete
+                        </div>
+
+                        <p class="text-muted small">
+                            Sabonete 90g
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 2,50
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Açúcar 1kg" data-category="Alimentos">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        🍚
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Alimentos
+                        </span>
+
+                        <div class="product-name">
+                            Açúcar 1kg
+                        </div>
+
+                        <p class="text-muted small">
+                            Açúcar refinado
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 4,79
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 product" data-name="Café 500g" data-category="Alimentos">
+
+                <div class="card product-card shadow-sm">
+
+                    <div class="product-image">
+                        ☕
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="badge bg-light text-success mb-2">
+                            Alimentos
+                        </span>
+
+                        <div class="product-name">
+                            Café 500g
+                        </div>
+
+                        <p class="text-muted small">
+                            Café torrado e moído
+                        </p>
+
+                        <div class="price mb-3">
+                            R$ 16,90
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        
+
+    </main>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h5>
+                        🛒 Mercadinho da Nuvem
+                    </h5>
+
+                    <p>
+                        Seu mercado de bairro, sempre pertinho de você.
+                    </p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h6>
+                        Horário
+                    </h6>
+
+                    <p>
+                        Segunda a sábado<br>
+                        08:00 às 20:00
+                    </p>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <h6>
+                        Contato
+                    </h6>
+
+                    <p>Rua da Nuvem, 4267
+
+</script>
+
+</body>
+
+</html>
